@@ -97,7 +97,56 @@
     </video><br><br>
 
 
-    <i>Presenter:</i> Dr. Momina Habibi
+    <details>
+        <summary>Click to see detailed discussion points</summary>
+        <p>The meeting focused on the upcoming Arduino workshop. Discussions were centered around the curriculum development, the resources needed, and the guest speakers to be invited. The team also debated the workshop's target audience, considering whether to focus exclusively on advanced students or to include beginners to widen participation.</p>
+    </details><br>
+
+
+
+<form action="#" method="post">
+    <fieldset>
+        <legend> Register for Workshop</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="Dob">Date of Birth:</label>
+        <input type="date" id="Dob" name="Dob" required><br>
+
+        <label for="interests">Your Interests:</label>
+        <input type="checkbox" id="robotics" name="interests" value="robotics">
+        <label for="robotics">Robotics</label>
+        <input type="checkbox" id="programming" name="interests" value="programming">
+        <label for="programming">Programming</label><br>
+
+        <label>Preferred Language:</label>
+        <input type="radio" id="python" name="language" value="python">
+        <label for="python">Python</label>
+        <input type="radio" id="javascript" name="language" value="javascript">
+        <label for="javascript">JavaScript</label><br>
+
+        <label for="car">Car preference (autocompleted):</label>
+        <input list="cars" id="car" name="car">
+        <datalist id="cars">
+            <option value="Honda">
+            <option value="Ford">
+            <option value="Tesla">
+        </datalist><br>
+
+        <label for="session">Choose a session:</label>
+        <select id="session" name="session">
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+        </select><br>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+        <button type="submit">Submit Registration</button>
+    </fieldset> 
+</form>
+
 </main>
 
     <footer>
