@@ -6,10 +6,12 @@
     --header-color: color(display-p3 0.2 0.3 0.8); 
     --fallback-color: var(--main-color, blue); 
 }
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #e5a7e3;
     margin: 0;
     padding: 0;
 }
@@ -23,7 +25,49 @@ header{
 
 nav ul{
     list-style-type: none;
-    background-color: #cc22c6;
+    background-color: #d890d6;
     padding: 10px;
     text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #580656;
+}
+
+h3 {
+    color: #6c236b;
+    text-decoration: underline;
+}
+
+p {
+    color: #000;
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Jersey 25', sans-serif;
+}
+
+video {
+    border-style: solid;
+    border-color: #cc22c6;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 1000px;
+    height: 600px;
+    max width: 1200;
+    
+}
+
+audio {
+    border-style: solid;
+    border-color: #cc22c6;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 500px;
+    height: 50px;
 }

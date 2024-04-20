@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Jacquard 24';
+    src: url('Jacquard24-Regular.woff2') format('woff2'),
+        url('Jacquard24-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jersey 25';
+    src: url('Jersey25-Regular.woff2') format('woff2'),
+        url('Jersey25-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
