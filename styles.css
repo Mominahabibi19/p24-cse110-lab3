@@ -7,11 +7,11 @@
     --fallback-color: var(--main-color, blue); 
 }
 
-
+/* Style for the body */
 body {
     font-family: 'Times New Roman', Times, serif;
     color: #333;
-    background-color: #e5a7e3;
+    background-color:#e5a7e3;
     margin: 0;
     padding: 0;
 }
@@ -46,7 +46,7 @@ h3 {
 }
 
 p {
-    color: #000;
+    color: beige;
     font-size: 20px;
     text-align: right;
     font-family: 'Jersey 25', sans-serif;
@@ -54,20 +54,49 @@ p {
 
 video {
     border-style: solid;
-    border-color: #cc22c6;
+    border-color: rgb(235, 27, 228);
     border-width: 5px;
     border-radius: 10px;
     width: 1000px;
     height: 600px;
     max width: 1200;
-    
+
 }
 
 audio {
     border-style: solid;
-    border-color: #cc22c6;
+    border-color: rgb(235, 27, 228);
     border-width: 5px;
     border-radius: 10px;
     width: 500px;
     height: 50px;
 }
+
+img {
+    border-color: hsl(320, 25%, 48%);
+    border-style: double ;
+    border-width: 10px;
+    
+}
+
+footer {
+    background-color: color(display-p3 0.75 0.58 0.95);
+
+}
+
+input, button{
+    background-color: #eee;
+    color: #333;
+
+    background-color: color(display-p3 0.95 0.76 0.76);
+    color: color(display-p3 0 0 0 / 0.87);
+    border: 1px solid color(display-p3 0.75 0.58 0.95);
+}
+
+button {
+    background-color: color-mix(in display-p3, color(display-p3 0.93 0.51 0.93) 50%, color(display-p3 0.95 0.76 0.76) 50%);
+}
+/*
+button:hover {
+    background-color: color-mix(in display-p3, color(display-p3 0.93 0.51 0.93) 50%, color(display-p3 0.95 0.76 0.76) 50%);
+}*/
