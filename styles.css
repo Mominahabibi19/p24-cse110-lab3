@@ -25,9 +25,29 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: #333;
     background-color:#e5a7e3;
-    margin: <1cm> <1cm> <1cm> <1cm>;    
+    margin: 1cm 1cm 1cm 1cm;    
+    margin: 1cm 1cm 1cm 1cm;
     padding: 20px;
     line-height: 1.6;
+}
+
+@media screen and (max-width: 1000px){
+    body {
+        background-color:#e5a7e3;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color:#e5a7e3;
+    }
+}
+
+@media screen and (max-width: 400px){
+    body{
+        background-color:#e5a7e3;
+    }
+    
 }
 
 header{
