@@ -25,7 +25,7 @@ header{
     position: sticky;
     background-color: var(--primary-color, thistle);
     color: #fff;
-    padding: 1 rem;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -62,18 +62,14 @@ nav a:hover {
 
 nav {
     background: rgb(160, 37, 123);
-
     ol {
         list-style: none;
-
         li {
             display: inline-block;
             margin-right: 20px;
-
             a {
                 color: #6c236b;
                 text-decoration: none;
-
                 a:hover {
                     text-decoration: underline;
                 }
@@ -86,11 +82,9 @@ nav {
     ol {
         list-style: none;
         padding: 0;
-
          li {
              margin-bottom: 10px;
              color: #6c236b;
-
              strong {
                 color: #490239;
             }
@@ -293,10 +287,10 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 button {
-    background-color: color-mix(in lch, plum 80%, pink 10%);
+    background-color: color(color-mix(in lch, plum 80%, pink 10%));
     padding: 10px 15px 10px 15px;
     border-radius: 10px;
-    color: color(display-p3 0.627 0.145 0.482);;
+    color: color(display-p3 0.627 0.145 0.482);
     cursor: pointer;
     font-size: 1em;
     min-width: 80px;
