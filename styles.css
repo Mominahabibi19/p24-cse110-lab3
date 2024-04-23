@@ -62,15 +62,19 @@ nav a:hover {
 
 nav {
     background: rgb(160, 37, 123);
-    & ol {
+
+    ol {
         list-style: none;
-        & li {
+
+        li {
             display: inline-block;
             margin-right: 20px;
-            & a {
+
+            a {
                 color: #6c236b;
                 text-decoration: none;
-                & a:hover {
+                
+                a:hover {
                     text-decoration: underline;
                 }
             }
