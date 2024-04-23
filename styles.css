@@ -73,7 +73,7 @@ nav {
             a {
                 color: #6c236b;
                 text-decoration: none;
-                
+
                 a:hover {
                     text-decoration: underline;
                 }
@@ -302,11 +302,11 @@ button:hover, button:active{
 }
 
 .flex-container {
-    display: flex; /* Sets the display to flex */
-    justify-content: space-around; /* Distributes space around items */
-    align-items: center; /* Vertically centers items in the container */
-    height: 200px; /* Example fixed height */
-    background-color: #f0f0f0; /* Light grey background */
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    height: 200px; 
+    background-color: #f0f0f0; 
 }
 
 .flex-item {
@@ -354,7 +354,6 @@ p:has(span){
 }
 
 .contact-info {
-    /*position: absolute;*/
     background-color: #623461;
     color: #fff;
     padding: 20px;
@@ -377,8 +376,6 @@ footer {
     left: 0;
     width: 100%;
     box-shadow: 0 2px 5px rgba(96, 2, 85, 0.916);
-     /* grid-template-columns: repeat(3, 1fr);
-    background-color: color(display-p3 0.99 0.80 0.95);*/
 }
 
 footer p {
