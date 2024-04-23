@@ -29,6 +29,42 @@ header{
     text-align: center;
 }
 
+@media screen and (max-width: 1000px){
+    body {
+        background-color:#e5a7e3;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color:#e5a7e3;
+    }
+}
+
+@media screen and (max-width: 400px){
+    body{
+        background-color:#e5a7e3;
+    }
+    
+}
+
+/* adjustments for tablet and below */
+@media (max-width: 768px){
+    img, video, audio{
+        width: 100%;
+        height: auto;
+        margin: 5px;
+    }
+}
+
+/* adjustments for mobile and below */
+@media (max-width: 480px){
+    img, video, audio{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
 nav {
     list-style-type: none;
     background-color: #d890d6;
@@ -154,6 +190,16 @@ div p {
     color: #db97da;
 }
 
+@media (max-width: 768px){
+    nav ul{
+        flex-direction: column;
+    }
+    nav li{
+        width: 100%;
+        text-align: center;
+    }
+}
+
 /*element selector*/
 p {
     position: relative;
@@ -241,6 +287,13 @@ audio {
     margin-top: 10px;
 }
 
+@media (max-width: 768px){
+    .audio-section {
+        padding: 15px;
+        margin: 10px;
+    }
+}
+
 form {
     background-color: #d890d6;
     padding: 20px;
@@ -299,6 +352,13 @@ button {
 
 button:hover, button:active{
     background-color: #d890d6;
+}
+
+@media (max-width: 768px){
+    form {
+        padding: 10px;
+        margin: 10px;;
+    }
 }
 
 .flex-container {
@@ -381,4 +441,12 @@ footer {
 footer p {
     margin: 5px 10px;
     flex : 1 100%;
+}
+
+@media (max-width: 768px){
+    .contact-info, footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
 }
