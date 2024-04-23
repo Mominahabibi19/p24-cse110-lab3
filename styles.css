@@ -78,30 +78,26 @@ nav {
     }
 }
 
-#agenda {
-    ol {
-        list-style: none;
-        padding: 0;
-         li {
-             margin-bottom: 10px;
-             color: #6c236b;
-             strong {
-                color: #490239;
-            }
-         }
-    }  
+#agenda ol {
+    list-style: none;
+    padding: 0;
+}
+#agenda ol li {
+    margin-bottom: 10px;
+    color: #6c236b;
+}
+#agenda ol li strong {
+    color: #490239;
 }
 
-#attendence {
-    ul {
-        list-style: none;
-        padding: 0;
-        li {
-            margin-bottom: 10px;
-            color: #948f94;
-        }
-    }
-}  
+#attendence ul {
+    list-style: none;
+    padding: 0;
+}
+#attendence ul li {
+    margin-bottom: 10px;
+    color: #948f94;
+}
 
 nav li {
     margin: 0 10px;
@@ -287,10 +283,11 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 button {
-    background-color: color(color-mix(in lch, plum 80%, pink 10%));
+    background-color: color-mix(in lch, color(plum) 80%, color(pink) 10%);
     padding: 10px 15px 10px 15px;
     border-radius: 10px;
-    color: color(display-p3 0.627 0.145 0.482);
+    color: rgb(160, 37, 123);
+    color: color(display-p3 0.627 0.145 0.482); /*wide color gamut if supported*/
     cursor: pointer;
     font-size: 1em;
     min-width: 80px;
